@@ -47,7 +47,7 @@ jobs:
     - name: Remove unsigned apk
       run: rm android/build/outputs/apk/release/android-release-unsigned.apk
 
-    - name: Remove unsigned apk
+    - name: Remove unsigned apk part 2
       run: rm android/build/outputs/apk/release/android-release-unsigned-aligned.apk
 
     - name: Remove signing key
