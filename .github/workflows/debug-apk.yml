@@ -38,8 +38,5 @@ jobs:
         prerelease: false
         title: "${{ env.version }}"
         files: |
-            android/build/outputs/apk/release/android-release.apk
+            android/build/outputs/apk/release/*.apk
             desktop/build/libs/*.jar
-
-    - name: Remove output.json
-      run: rm android/build/outputs/apk/release/output.json
